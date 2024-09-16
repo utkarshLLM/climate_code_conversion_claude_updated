@@ -1,1 +1,11 @@
-
+main.py is the main control block. It calls the functions from generate.py. It also tell the code to run tests.
+generate.py has all the functions to generate 1. python translation, 2. unit tests
+messages.py has all the prompts for the LLM
+RAG is the file that calls all the RAG functionalities: chunk_code, Embedding.
+testing.py runs the unit tests on the docker and some other functionalities.
+utils.py has miscellaneous functions
+debug.py (still not totally complete) has some functionalities that tells the LLM to debug the generated Python translation
+continuation.py contains the file that we used for Iterative Translation
+continuation_flagpoint.py; main_.py; messages_flagpoint.py are mostly experimental file and not important
+Best_translation_micro_mg_tend.py is the best translation we got and then the daily token limit of Claude got exhausted
+Rest other files are either some code files necessary like the requirements.txt for the project or some code files that were generated or maybe just are there for convenience's sake.
