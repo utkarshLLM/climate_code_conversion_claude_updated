@@ -1,4 +1,4 @@
-from chunk_code import generate_chunks
+from tree_sitter_script import generate_chunks
 from Embedding import generate_embeddings
 # from langchain_anthropic import ChatAnthropic
 # from langchain_anthropic import AnthropicLLM
